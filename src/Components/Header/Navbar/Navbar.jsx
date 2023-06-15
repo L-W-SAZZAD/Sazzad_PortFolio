@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import logo from "../../../assets/logo.png";
 import { MdDarkMode, MdOutlineLightMode } from "react-icons/md";
 import { FcMenu } from "react-icons/fc";
@@ -41,40 +40,54 @@ export default function Navbar() {
               } lg:min-h-fit md:min-h-fit min-h-screen lg:shadow-none md:shadow-none shadow-md shadow-slate-50 transition-all ease-linear duration-200 z-50`}
             >
               <li>
-                <Link
+                <a
+                  href="#home"
                   className={`${
                     mode ? "text-[#000]" : "text-[var(--text-color)]"
                   } font-[var(--text-font)] tracking-wide text-lg hover:underline transition ease-linear duration-200 hover:text-[var(--text-color-primary)]`}
                 >
                   Home
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
+                  href="#projects"
                   className={`${
                     mode ? "text-[#000]" : "text-[var(--text-color)]"
                   } font-[var(--text-font)] tracking-wide text-lg hover:underline transition ease-linear duration-200 hover:text-[var(--text-color-primary)]`}
                 >
-                  Works
-                </Link>
+                  Projects
+                </a>
               </li>
               <li>
-                <Link
+                <a
+                  href="#skills"
+                  className={`${
+                    mode ? "text-[#000]" : "text-[var(--text-color)]"
+                  } font-[var(--text-font)] tracking-wide text-lg hover:underline transition ease-linear duration-200 hover:text-[var(--text-color-primary)]`}
+                >
+                  Skills
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about-me"
                   className={`${
                     mode ? "text-[#000]" : "text-[var(--text-color)]"
                   } font-[var(--text-font)] tracking-wide text-lg hover:underline transition ease-linear duration-200 hover:text-[var(--text-color-primary)]`}
                 >
                   About-Me
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
+                  href="#contacts"
                   className={`${
                     mode ? "text-[#000]" : "text-[var(--text-color)]"
                   } font-[var(--text-font)] tracking-wide text-lg hover:underline transition ease-linear duration-200 hover:text-[var(--text-color-primary)]`}
                 >
                   Contacts
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

@@ -37,7 +37,7 @@ const familiar = ["Redux,"];
 export default function Skills() {
   const { mode } = useContext(AuthContext);
   return (
-    <div className="py-10 my-10">
+    <div className="py-10 my-10" id="skills">
       <div className="skills_wrapper">
         {/* skills headers */}
         <div className="skills-header projects_header flex justify-between items-center gap-5 pb-10">

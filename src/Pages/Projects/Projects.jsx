@@ -33,7 +33,7 @@ const projectItems = [
 export default function Projects() {
   const { mode } = useContext(AuthContext);
   return (
-    <div>
+    <div id="projects">
       <div className="project_wrapper py-10  my-10">
         {/* project header */}
         <div className="projects_header flex justify-between items-center gap-5 pb-10">
@@ -62,7 +62,7 @@ export default function Projects() {
           {projectItems?.map(
             ({ id, projectName, img, useLanguage, liveLink, githubLink }) => (
               <div
-                className="projects_menu ring-2 p-5 rounded-md relative"
+                className="projects_menu ring-2 ring-[var(--text-color-primary)] p-5 rounded-md relative"
                 key={id}
               >
                 <div className="projects_img">
