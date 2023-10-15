@@ -75,7 +75,7 @@ export default function Projects() {
                 <div className="info">
                   <div>
                     <p
-                      className={`text-lg ${
+                      className={`text-[16px] ${
                         mode ? "text-black" : "text-white"
                       }`}
                     >
@@ -93,6 +93,7 @@ export default function Projects() {
                     </h2>
                     <div className="flex justify-center gap-5">
                       <Link
+                        to={liveLink}
                         className={`${
                           mode ? "text-black" : "text-white "
                         } px-5 py-2 shadow-md shadow-black inline-block rounded-md `}
@@ -100,6 +101,7 @@ export default function Projects() {
                         LiveLink
                       </Link>
                       <Link
+                        to={githubLink}
                         className={`${
                           mode ? "text-black" : "text-white "
                         } px-5 py-2 shadow-md shadow-black inline-block rounded-md`}
