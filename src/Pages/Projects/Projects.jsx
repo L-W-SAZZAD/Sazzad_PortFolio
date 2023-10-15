@@ -6,7 +6,7 @@ import { AuthContext } from "../../Context/UseContext";
 const projectItems = [
   {
     id: 1,
-    projectName: "Todo Application",
+    projectName: "Epd It Solution",
     img: "https://i.ibb.co/XYfwyCV/screencapture-epdbd-2023-06-15-15-19-55.png",
     useLanguage: ["React", "Redux", "Express js", "Mongodb", "Tailwind"],
     liveLink: "www.epdbd.com",
@@ -14,19 +14,19 @@ const projectItems = [
   },
   {
     id: 2,
-    projectName: "Video Gallery",
-    img: "https://i.ibb.co/XYfwyCV/screencapture-epdbd-2023-06-15-15-19-55.png",
-    useLanguage: ["React", "Redux", "Express js", "Mongodb", "Tailwind"],
-    liveLink: "www.epdbd.com",
-    githubLink: "https://github.com/L-W-SAZZAD/epd-solution-website",
+    projectName: "Doctor Popy",
+    img: "https://i.ibb.co/CKYBNsJ/screencapture-doctorpopy-test-2023-10-15-11-15-27.jpg",
+    useLanguage: ["React", "Tailwind", "Swiper js", "Aos Animation", "Php"],
+    liveLink: "https://dev-sazzadhossain.github.io/Doctor_Dev/index.html",
+    githubLink: "https://github.com/dev-SazzadHossain/Doctor_Dev",
   },
   {
     id: 3,
-    projectName: "Curd Project",
-    img: "https://i.ibb.co/XYfwyCV/screencapture-epdbd-2023-06-15-15-19-55.png",
-    useLanguage: ["React", "Redux", "Express js", "Mongodb", "Tailwind"],
-    liveLink: "www.epdbd.com",
-    githubLink: "https://github.com/L-W-SAZZAD/epd-solution-website",
+    projectName: "Noty Project",
+    img: "https://i.ibb.co/0YQkW2v/screencapture-fluffy-tapioca-831026-netlify-app-2023-10-15-11-27-49.jpg",
+    useLanguage: ["React", "Tailwind"],
+    liveLink: "https://fluffy-tapioca-831026.netlify.app/",
+    githubLink: "https://github.com/dev-SazzadHossain/Noty_Project",
   },
 ];
 
